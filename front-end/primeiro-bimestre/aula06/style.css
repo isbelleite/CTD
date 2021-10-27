@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+h1{
+
+    font-family: 'Roboto', sans-serif;
+}
+
+
+article{
+    background-image: url("");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center ;
+    height: 400px;
+}
