@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0%
+}
+
+body{
+    background-image: url('https://img.freepik.com/fotos-gratis/vista-frontal-de-um-lindo-cachorro-com-espaco-de-copia_23-2148786561.jpg?size=626&ext=jpg');
+    background-repeat: no-repeat; 
+    background-size: cover;  
+    width: 100%;
+    height: 100%;
+}
+
+menu{
+    position: fixed;
+    width: 200px;
+    margin-top: 2px;
+}
+
+button{
+    background-color: white;
+    width: 10%;
+    position: relative;
+    margin: 10%;
+}

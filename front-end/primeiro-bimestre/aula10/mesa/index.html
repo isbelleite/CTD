@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">   
+</head>
+<body>
+    <h1><ion-icon name="aperture-outline"></ion-icon>Travel</h1>
+
+    <form>
+        <div>
+            <label for="user">Nome do Usuário:</label>
+            <input type="text" name="username" id="username">
+            
+            <label for="emailUser">E-mail:</label>
+            <input type="email" name="emailUser" id="emailUser" placeholder="example@example.com">
+
+            <label for="passwordUser">Senha:</label>
+            <input type="password" name="passwordUser" id="passwordUser">
+        
+            <label for="observation">Observações:</label>        
+            <textarea name="observation" id="observation"></textarea>
+        
+            <select name="city" id="city">
+                <option disable select>Escolha a cidade</option>
+                <option value="">São Paulo</option>
+                <option value="">São Bernardo</option>
+            </select>
+
+            <button type="submit" class="button-send">Enviar</button>
+            <button type="reset" class="button-clean">Limpar</button> 
+        </div>
+        
+
+    </form>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
