@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<h1 id="titulo">São Paulo - SP</h1>
+<body>
+    <p id="resumo">
+        Muito além do turismo de negócios, a <strong>maior metrópole do Brasil</strong> tem se destacado cada vez mais como um importante destino de lazer. Repleta de <strong>atrações culturais, gastronômicas e de entretenimento,</strong> a cidade de São Paulo tem muito a oferecer a seus visitantes.
+    </p>
+    <main id="video">
+        <iframe width="1280" height="720" src="https://www.youtube.com/embed/eg2PNmse6pc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </main>
+
+    <main>
+        <h1 id="subtitulo">Curiosidades</h1>
+        <ul id="lista">
+            <li>Paulistanos consomem 1 milhão de pizzas por dia</li>
+            <li>Possui um dos melhores metrôs do mundo</li>
+            <li>Já teve um ônibus de 2 andares</li>
+            <li>Abriga 3 aldeias indigenas</li>
+        </ul>
+    
+        <footer>
+            <a href="https://www.instagram.com/governosp/"> <ion-icon name="logo-instagram"></ion-icon> </a>
+            <a href="https://www.youtube.com/user/governosp"> <ion-icon name="logo-youtube"></ion-icon></a>
+        </footer>
+
+        <form>
+
+            <h1 id="subtitulo">Cadastro</h1>
+
+            <div>
+                <label for="username">Nome</label>
+                <input type="text" name="username" id="username" maxlength="100">
+            </div>
+
+            <div>
+                <label for="emailUsername">E-mail</label>
+                <input type="email" name="emailUsername" id="emailUsername" placeholder="example@example.com">
+            </div>
+
+            <div>
+                <label for="phoneUsername">Telefone</label>
+                <input type="number" name="phoneUsername" id="phoneUsername" placeholder="(XX)XXXXXXXX">
+            </div>
+
+            <div>
+                <label for="dateUsername">Data de nascimento</label>
+                <input type="date" name="dateUsername" id="dateUsername" placeholder="DD/MM/AAAA">
+            </div>
+
+            <div>
+                <label for="ageUsername">Maior de idade?</label>
+                <input type="radio" name="ageUsername" value="Maior de 18 anos">
+                <label>Sim</label>
+                <input type="radio" name="ageUsername" value="Menor de 18 anos">
+                <label>Não</label>
+            </div>
+
+            <div>
+                <label for="point">Ponto de interesse</label>
+                <select name="point" id="point">
+                    <option disabled selected value="">Selecione</option>
+                    <option value="1">Avenida Paulista</option>
+                    <option value="2">Edifício Itália</option>
+                    <option value="3">SESC</option>
+                    <option value="4">Farol Santander</option>
+                </select>
+            </div>
+
+            <div>
+                <label for="focusUsername">Interesses</label>
+                <input type="checkbox" name="focusUsername" value="Turista">
+                <label>Turista</label>
+                <input type="checkbox" name="focusUsername" value="Residente">
+                <label>Residente</label>
+                <input type="checkbox" name="focusUsername" value="Estudante">
+                <label>Estudante</label>
+            </div>
+
+            <button type="reset" class="button-clear">Limpar</button>
+            <button type="submit" class="button-send">Enviar</button>
+
+        </form>
+    </main>
+   
+
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
