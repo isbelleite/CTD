@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <main>
+
+        <form>
+
+            <h1>Cadastro de Usuário</h1>
+
+            <div>
+                <label for="username">Nome de Usuário</label>
+                <input type="text" name="username" id="username">
+            </div>
+
+            <div>
+                <label for="emailUsername">E-mail</label>
+                <input type="email" name="emailUsername" id="emailUsername" placeholder="example@example.com">
+            </div>
+
+            <div>
+                <label for="passwordUser">Senha</label>
+                <input type="password" name="passwordUser" id="passwordUser">
+            </div>
+
+            <div>
+                <label for="observations">Observações</label>
+                <textarea name="observations" id="observations"></textarea>
+            </div>
+
+            <div>
+                <label for="state">Estado</label>
+                <select name="state" id="state">
+                    <option disabled selected value="">Selecione</option>
+                    <option value="1">São Paulo</option>
+                    <option value="2">Rio de Janeiro</option>
+                    <option value="3">São Paulo</option>
+                </select>
+            </div>
+
+            <button type="reset" class="button-clear">Limpar Formulário</button>
+            <button type="submit" class="button-send">Enviar Formulário</button>
+
+        </form>
+
+    </main>
+
+</body>
+</html>

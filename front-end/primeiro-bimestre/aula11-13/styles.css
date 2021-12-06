@@ -1,0 +1,59 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+
+    background-color: black;
+
+}
+
+form {
+
+    background-color: white;
+    width: 500px;
+    margin: 0 auto;
+    padding: 24px;
+    border-radius: 12px;
+
+}
+
+div {
+
+    margin-top: 24px;
+
+}
+
+.button-clear {
+
+    background-color: salmon;
+
+}
+
+.button-send {
+
+    background-color: seagreen;
+
+}
+
+/* form {
+
+    padding: 24px;
+
+}
+
+label, button {
+
+    margin-top: 24px;
+
+}
+
+label, input, textarea, button {
+
+    display: block;
+
+} */
